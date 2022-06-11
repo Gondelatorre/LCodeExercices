@@ -13,7 +13,7 @@ using LeetCode.Test._556.Next.Greater.Element.III;
 
 
 
-ContainsDuplicateProblem2.Create().Resolve();
+ContainsDuplicateProblem.Create().Resolve();
 
 
 

@@ -43,13 +43,14 @@ namespace LeetCode.Test
             return new ContainsDuplicateProblem();
         }
 
+
         public void Resolve()
         {
 
             Console.WriteLine("La solución al problema Contains duplicate");
 
 
-            int[] nums = new int[] { 5, 1, 3, 4, 2,5 };
+            int[] nums = new int[] { 5, 1, 3, 4, 2, 5 };
 
             Console.Write($"listado: ");
             foreach (int i in nums)
@@ -65,22 +66,43 @@ namespace LeetCode.Test
 
 
 
+      
+
         public bool ContainsDuplicate(int[] nums)
         {
-            if (nums.Length == 1) return false;
-
-            Array.Sort(nums);
+            HashSet<int> d = new HashSet<int>();
 
 
-
-            for (int i = 1; i < nums.Length; i++)
+            for (int i = 0; i < nums.Length; i++)
             {
-                if (nums[i] == nums[i - 1])
-                    return true;
+
+                if (!d.Add(nums[i])) return true;
             }
 
             return false;
         }
+
+
+
+        /// <summary>
+        /// Solución lenta
+        /// </summary>
+        //public bool ContainsDuplicateOriginal(int[] nums)
+        //{
+        //    if (nums.Length == 1) return false;
+
+        //    Array.Sort(nums);
+
+
+
+        //    for (int i = 1; i < nums.Length; i++)
+        //    {
+        //        if (nums[i] == nums[i - 1])
+        //            return true;
+        //    }
+
+        //    return false;
+        //}
 
 
     }
