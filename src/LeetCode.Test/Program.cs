@@ -12,8 +12,13 @@ using LeetCode.Test._556.Next.Greater.Element.III;
 
 
 
+//217
+//ContainsDuplicateProblem.Create().Resolve();
 
-ContainsDuplicateProblem.Create().Resolve();
+
+//P: 1
+TwoSumProblem.Create().Resolve();
+
 
 
 
