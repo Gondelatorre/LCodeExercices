@@ -17,9 +17,10 @@ using LeetCode.Test._556.Next.Greater.Element.III;
 
 
 //P: 1
-TwoSumProblem.Create().Resolve();
+//TwoSumProblem.Create().Resolve();
 
-
+//P: 2
+BestTimeBuySellStockProblem.Create().Resolve();
 
 
 Console.ReadKey();
