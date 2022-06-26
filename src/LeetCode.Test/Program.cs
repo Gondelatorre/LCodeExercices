@@ -20,7 +20,12 @@ using LeetCode.Test._556.Next.Greater.Element.III;
 //TwoSumProblem.Create().Resolve();
 
 //P: 2
-BestTimeBuySellStockProblem.Create().Resolve();
+//BestTimeBuySellStockProblem.Create().Resolve();
+
+
+//P: 3
+// Product of Array Except Self
+ProductOfArrayExceptSelf.Create().Resolve();
 
 
 Console.ReadKey();
