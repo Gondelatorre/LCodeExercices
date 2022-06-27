@@ -25,7 +25,11 @@ using LeetCode.Test._556.Next.Greater.Element.III;
 
 //P: 3
 // Product of Array Except Self
-ProductOfArrayExceptSelf.Create().Resolve();
+//ProductOfArrayExceptSelf.Create().Resolve();
 
+
+//P: 4
+//53. Maximum Subarray
+MaximumSubarray.Create().Resolve();
 
 Console.ReadKey();
