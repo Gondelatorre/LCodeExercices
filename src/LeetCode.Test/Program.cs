@@ -30,6 +30,11 @@ using LeetCode.Test._556.Next.Greater.Element.III;
 
 //P: 4
 //53. Maximum Subarray
-MaximumSubarray.Create().Resolve();
+//MaximumSubarray.Create().Resolve();
+
+//P: 5
+//152. Maximum Product Subarray
+MaximumProductSubarray.Create().Resolve();
+
 
 Console.ReadKey();
