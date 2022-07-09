@@ -34,7 +34,11 @@ using LeetCode.Test._556.Next.Greater.Element.III;
 
 //P: 5
 //152. Maximum Product Subarray
-MaximumProductSubarray.Create().Resolve();
+//MaximumProductSubarray.Create().Resolve();
+
+//P:6
+//289. Game of Life
+GameOfLife.Create().Resolve();
 
 
 Console.ReadKey();
