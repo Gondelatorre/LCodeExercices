@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Test
 {
-    internal class ProductOfArrayExceptSelf
+    internal class ProductOfArrayExceptSelf : IProblem
     {
 
         /*

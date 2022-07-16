@@ -2,48 +2,32 @@
 using LeetCode.Test;
 using LeetCode.Test._556.Next.Greater.Element.III;
 
-//Console.WriteLine("La solución es:");
+// Indice de problemas
+#region Indice de problemas
+/*
+    Group 1 
+            217.    ContainsDuplicate,
+            1.      TwoSum,
+            121.    BestTimeBuySellStock,
+            238.    ProductOfArrayExceptSelf,
+            53.     MaximumSubarray,
+            152.    MaximumProductSubarray,
+            289.    GameOfLife
+
+    */
+
+#endregion
 
 
-//var result = NextGreaterElement.Resolve();
-
-//Console.WriteLine($"{result}");
-
+// ** Especificar cual problema resolver **
+var p = Problems.Group1.GameOfLife;
 
 
 
-//217
-//ContainsDuplicateProblem.Create().Resolve();
+var problemFactory = new ProblemFactory();
+IProblem problem = problemFactory.Resolve(p.ToString());
 
 
-//P: 2
-//TwoSumProblem.Create().Resolve();
-
-//P: 3
-//BestTimeBuySellStockProblem.Create().Resolve();
-
-
-//P: 4
-// Product of Array Except Self
-//ProductOfArrayExceptSelf.Create().Resolve();
-
-
-//P: 5
-//53. Maximum Subarray
-//MaximumSubarray.Create().Resolve();
-
-//P: 6
-//152. Maximum Product Subarray
-//MaximumProductSubarray.Create().Resolve();
-
-//P:7
-//289. Game of Life
-//GameOfLife.Create().Resolve();
-
-// p:7
-//153. Find Minimum in Rotated Sorted Array
-MinRotateSortArray.Create().Resolve();
-
-
+problem.Resolve();
 
 Console.ReadKey();

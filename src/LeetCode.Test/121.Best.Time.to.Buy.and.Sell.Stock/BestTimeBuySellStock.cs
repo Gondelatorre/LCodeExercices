@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Test
 {
-    internal class BestTimeBuySellStockProblem : IProblem
+    internal class BestTimeBuySellStock : IProblem
     {
 
         /*    121
@@ -42,9 +42,9 @@ namespace LeetCode.Test
          
          */
 
-        internal static BestTimeBuySellStockProblem Create()
+        internal static BestTimeBuySellStock Create()
         {
-            return new BestTimeBuySellStockProblem();
+            return new BestTimeBuySellStock();
         }
 
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Test
 {
-    internal class ContainsDuplicateProblem : IProblem
+    internal class ContainsDuplicate : IProblem
     {
 
         /*
@@ -38,9 +38,9 @@ namespace LeetCode.Test
 
         */
 
-        internal static ContainsDuplicateProblem Create()
+        internal static ContainsDuplicate Create()
         {
-            return new ContainsDuplicateProblem();
+            return new ContainsDuplicate();
         }
 
 
@@ -59,7 +59,7 @@ namespace LeetCode.Test
             }
 
 
-            bool result = ContainsDuplicate(nums);
+            bool result = ContainsDuplicateR(nums);
 
             Console.WriteLine($"=>  Respuesta: {result}");
         }
@@ -68,7 +68,7 @@ namespace LeetCode.Test
 
       
 
-        public bool ContainsDuplicate(int[] nums)
+        public bool ContainsDuplicateR(int[] nums)
         {
             HashSet<int> d = new HashSet<int>();
 

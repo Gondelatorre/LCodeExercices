@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Test
 {
-    internal class TwoSumProblem : IProblem
+    internal class TwoSum : IProblem
     {
 
         /*
-        1. Two Sum
+        1.Two Sum
 
         Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -47,11 +47,12 @@ namespace LeetCode.Test
          
          
          */
+                
 
 
-        internal static TwoSumProblem Create()
+        internal static TwoSum Create()
         {
-            return new TwoSumProblem();
+            return new TwoSum();
         }
 
 
@@ -76,7 +77,7 @@ namespace LeetCode.Test
             Console.WriteLine($"Target: {target}");
 
 
-            int[] result = TwoSum(nums, target);
+            int[] result = TwoSumR(nums, target);
 
             Console.WriteLine($"=>  Respuesta: ");
             foreach (int i in result)
@@ -86,7 +87,7 @@ namespace LeetCode.Test
         }
 
 
-        public int[] TwoSum(int[] nums, int target)
+        public int[] TwoSumR(int[] nums, int target)
         {
 
             Dictionary<int, int> d = new Dictionary<int, int>();

@@ -8,6 +8,10 @@ namespace LeetCode.Test
 {
     internal interface IProblem
     {
+       
+
+        static IProblem Create() => throw new NotImplementedException();
+       
 
         void Resolve();
     }
