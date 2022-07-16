@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Test
 {
-    internal class GameOfLife
+    internal class GameOfLife : IProblem
     {
         /*
             289. Game of Life
