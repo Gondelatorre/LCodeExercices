@@ -73,10 +73,8 @@ namespace LeetCode.Test
 
             int pos = -1;
 
-
             int i = 0;
             int f = nums.Length - 1;
-
 
             while (true)
             {
@@ -106,7 +104,6 @@ namespace LeetCode.Test
                     break;
                 }
 
-
                 if (nums[i] <= nums[m])
                 {
                     if (nums[i] <= target && target <= nums[m])
@@ -123,7 +120,6 @@ namespace LeetCode.Test
                         f = m;
                         continue;
                     }
-
                 }
 
                 if (nums[m] < nums[f])
@@ -142,10 +138,8 @@ namespace LeetCode.Test
                         continue;
                     }
                 }
-
                 break;
             }
-
 
             return pos;
         }
