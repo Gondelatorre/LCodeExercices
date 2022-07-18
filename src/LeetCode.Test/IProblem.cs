@@ -10,7 +10,7 @@ namespace LeetCode.Test
     {
        
 
-        static IProblem Create() => throw new NotImplementedException();
+        //static IProblem Create() => throw new NotImplementedException();
        
 
         void Resolve();

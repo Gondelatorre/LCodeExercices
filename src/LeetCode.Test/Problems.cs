@@ -19,6 +19,12 @@ namespace LeetCode.Test
             GameOfLife
         }
 
+        public enum Group2
+        {
+            MinRotateSortArray,
+            SearchRotateSortArray
+        }
+
     }
 
     
