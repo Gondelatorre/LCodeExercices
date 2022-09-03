@@ -22,7 +22,8 @@ namespace LeetCode.Test
         public enum Group2
         {
             MinRotateSortArray,
-            SearchRotateSortArray
+            SearchRotateSortArray,
+            ThreeSum
         }
 
     }

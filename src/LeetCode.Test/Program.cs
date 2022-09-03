@@ -23,8 +23,8 @@ using LeetCode.Test._556.Next.Greater.Element.III;
     /* 
        Group 2
         153.    Min Rotate Sort Array
-
-
+        33.     Search in Rotated Sorted Array
+        15.     Three Sum
 
     */
 
@@ -34,8 +34,10 @@ using LeetCode.Test._556.Next.Greater.Element.III;
 #endregion
 
 
+
+
 // ** Especificar cual problema resolver **
-var p = Problems.Group2.SearchRotateSortArray;
+var p = Problems.Group2.ThreeSum;
 
 
 
