@@ -23,7 +23,8 @@ namespace LeetCode.Test
         {
             MinRotateSortArray,
             SearchRotateSortArray,
-            ThreeSum
+            ThreeSum,
+            ContainerWithMostWater
         }
 
     }
