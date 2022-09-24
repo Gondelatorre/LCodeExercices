@@ -24,7 +24,8 @@ namespace LeetCode.Test
             MinRotateSortArray,
             SearchRotateSortArray,
             ThreeSum,
-            ContainerWithMostWater
+            ContainerWithMostWater,
+            InsertInterval
         }
 
     }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.Test.Group2._11.ContainerWithMostWater
+namespace LeetCode.Test
 {
     internal class ContainerWithMostWater : IProblem
 
